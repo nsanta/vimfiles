@@ -26,7 +26,7 @@ task :install do
   puts
   puts 'All done!'
   puts 'Be sure to checkout the helpful links in the README'
-  puts 'Issues/Wiki: https://github.com/krisleech/vimfiles'
+  puts 'Issues/Wiki: https://github.com/nsanta/vimfiles'
   puts
   puts '*' * 79
 end
