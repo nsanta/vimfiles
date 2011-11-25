@@ -1,3 +1,6 @@
+Thanks to krisleech
+https://github.com/krisleech/vimfiles
+
 # Ruby/Rails centric vimfiles and installer
 
 With a great colour scheme and support for auto-complete, git, rvm and sparkup.
@@ -11,7 +14,7 @@ Introduction to Vim: http://blog.interlinked.org/tutorials/vim_tutorial.html
 
 ## Quick Install
 
-    curl https://raw.github.com/krisleech/vimfiles/master/bootstrap.sh -o - | sh
+    curl https://raw.github.com/nsanta/vimfiles/master/bootstrap.sh -o - | sh
 
 ## Basic Mappings
 
@@ -345,13 +348,13 @@ This installs Vim to `/usr/local/bin,` check this is in your `$PATH` before `/us
 Note: You will already have a `~/.vim` folder, either delete or move it.
 
     mv ~/.vim ~/.vim.old
-    git clone https://github.com/krisleech/vimfiles ~/.vim
+    git clone https://github.com/nsanta/vimfiles ~/.vim
     cd ~/.vim
     rake install
 
 or run:
 
-    curl https://raw.github.com/krisleech/vimfiles/master/bootstrap.sh -o - | sh
+    curl https://raw.github.com/nsanta/vimfiles/master/bootstrap.sh -o - | sh
 
 #### To update to the latest vimfiles
 
