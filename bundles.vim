@@ -12,7 +12,6 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle "git://github.com/mileszs/ack.vim.git"
-Bundle "git://github.com/tpope/vim-rvm.git"
 Bundle "git://github.com/tpope/vim-fugitive"
 Bundle "git://github.com/tpope/vim-rails.git"
 Bundle "git://github.com/tpope/vim-surround.git"
